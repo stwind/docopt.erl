@@ -1,0 +1,15 @@
+%% -*- mode: erlang -*-
+%% ex: ft=erlang ts=2 sw=2 et
+{application, docopt,
+ [
+  {description, "Docopt"},
+  {vsn, git},
+  {registered, []},
+  {applications, 
+   [
+    kernel,
+    stdlib
+   ]},
+  %{mod, { docopt_app, []}},
+  {env, []}
+ ]}.
